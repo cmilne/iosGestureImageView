@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--Gesture Image View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="GestureImageViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fillMurray150x150.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="xnb-KZ-kka">
+                                <rect key="frame" x="85" y="107" width="150" height="150"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fillMurray150x150.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="hYp-8X-iQl">
+                                <rect key="frame" x="85" y="309" width="150" height="150"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fillMurray150x150.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="tcc-LQ-gEL">
+                                <rect key="frame" x="297" y="309" width="150" height="150"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fillMurray150x150.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="zpc-Gg-yqH">
+                                <rect key="frame" x="297" y="107" width="150" height="150"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fillMurray150x150.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="TkW-fQ-SOR">
+                                <rect key="frame" x="496" y="107" width="150" height="150"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fillMurray150x150.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Imx-U7-uwu">
+                                <rect key="frame" x="496" y="309" width="150" height="150"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fillMurray150x150.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Lv3-KP-Dwh">
+                                <rect key="frame" x="297" y="507" width="150" height="150"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fillMurray150x150.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="9vc-8Q-fYX">
+                                <rect key="frame" x="85" y="507" width="150" height="150"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fillMurray150x150.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Vhu-yL-3VS">
+                                <rect key="frame" x="496" y="507" width="150" height="150"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="imageView1" destination="xnb-KZ-kka" id="aUg-PZ-8Ie"/>
+                        <outlet property="imageView2" destination="hYp-8X-iQl" id="422-FZ-atC"/>
+                        <outlet property="imageView3" destination="tcc-LQ-gEL" id="Uva-8S-bXv"/>
+                        <outlet property="imageView4" destination="zpc-Gg-yqH" id="9mP-rd-zDA"/>
+                        <outlet property="imageView5" destination="TkW-fQ-SOR" id="4Hk-oy-dH4"/>
+                        <outlet property="imageView6" destination="Imx-U7-uwu" id="IBD-B6-J2h"/>
+                        <outlet property="imageView7" destination="Lv3-KP-Dwh" id="8sx-Sn-5Xs"/>
+                        <outlet property="imageView8" destination="9vc-8Q-fYX" id="lrl-st-hFF"/>
+                        <outlet property="imageView9" destination="Vhu-yL-3VS" id="1zQ-Qf-TKt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fillMurray150x150.jpeg" width="150" height="150"/>
+    </resources>
+</document>
